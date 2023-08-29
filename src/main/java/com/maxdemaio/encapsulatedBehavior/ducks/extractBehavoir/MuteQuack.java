@@ -1,4 +1,4 @@
-package com.maxdemaio.extractBehavoir;
+package com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir;
 
 public class MuteQuack implements QuackBehavior {
     public void quack() {

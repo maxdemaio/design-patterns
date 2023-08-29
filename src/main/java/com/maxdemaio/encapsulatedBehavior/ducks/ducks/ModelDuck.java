@@ -1,8 +1,8 @@
-package com.maxdemaio.ducks;
+package com.maxdemaio.encapsulatedBehavior.ducks.ducks;
 
-import com.maxdemaio.extractBehavoir.Duck;
-import com.maxdemaio.extractBehavoir.FlyNoWay;
-import com.maxdemaio.extractBehavoir.Quack;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.Duck;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.FlyNoWay;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.Quack;
 
 public class ModelDuck extends Duck {
 

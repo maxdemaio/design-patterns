@@ -1,5 +1,8 @@
-package com.maxdemaio.ducks;
+package com.maxdemaio.encapsulatedBehavior.ducks.ducks;
 
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.Duck;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.FlyNoWay;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.MuteQuack;
 import com.maxdemaio.extractBehavoir.*;
 
 public class DecoyDuck extends Duck {

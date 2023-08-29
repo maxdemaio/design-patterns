@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3109c7-7def-44cd-b102-3593b0e91bbf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/ducks/DecoyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/ducks/DecoyDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/ducks/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/ducks/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/ducks/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/ducks/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/FlyNoWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/MuteQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/MuteQuack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/extractBehavoir/QuackBehavior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +46,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager">
@@ -92,7 +103,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/maxdemaio/ducks/MallardDuck.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/maxdemaio/encapsulatedBehavior/ducks/ducks/MallardDuck.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

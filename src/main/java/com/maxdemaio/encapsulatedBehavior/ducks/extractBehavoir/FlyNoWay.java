@@ -1,4 +1,4 @@
-package com.maxdemaio.extractBehavoir;
+package com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir;
 
 // Ducks that can't fly like rubber/decoy ducks
 public class FlyNoWay implements FlyBehavior {

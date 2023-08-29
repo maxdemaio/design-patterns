@@ -1,4 +1,4 @@
-package com.maxdemaio.extractBehavoir;
+package com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir;
 
 public abstract class Duck {
     public QuackBehavior quackBehavior;

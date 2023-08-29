@@ -1,10 +1,10 @@
 package com.maxdemaio;
 
-import com.maxdemaio.ducks.DecoyDuck;
-import com.maxdemaio.ducks.MallardDuck;
-import com.maxdemaio.ducks.ModelDuck;
-import com.maxdemaio.extractBehavoir.Duck;
-import com.maxdemaio.extractBehavoir.FlyWithWings;
+import com.maxdemaio.encapsulatedBehavior.ducks.ducks.DecoyDuck;
+import com.maxdemaio.encapsulatedBehavior.ducks.ducks.MallardDuck;
+import com.maxdemaio.encapsulatedBehavior.ducks.ducks.ModelDuck;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.Duck;
+import com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir.FlyWithWings;
 
 public class Main {
     public static void main(String[] args) {
