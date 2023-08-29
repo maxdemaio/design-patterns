@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3109c7-7def-44cd-b102-3593b0e91bbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/ducks/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/ducks/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/QuackBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/extractBehavoir/Duck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +88,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java</url>
-          <line>12</line>
+          <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
