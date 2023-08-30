@@ -1,4 +1,4 @@
-package com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir;
+package com.maxdemaio.strategyPattern.encapsulatedBehavior;
 
 // The interface that all flying behavior classes implement.
 public interface FlyBehavior {

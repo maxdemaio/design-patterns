@@ -1,4 +1,7 @@
-package com.maxdemaio.encapsulatedBehavior.ducks.extractBehavoir;
+package com.maxdemaio.strategyPattern.ducks;
+
+import com.maxdemaio.strategyPattern.encapsulatedBehavior.FlyBehavior;
+import com.maxdemaio.strategyPattern.encapsulatedBehavior.QuackBehavior;
 
 public abstract class Duck {
     public QuackBehavior quackBehavior;
