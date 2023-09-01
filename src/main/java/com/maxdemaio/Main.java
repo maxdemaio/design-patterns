@@ -1,5 +1,6 @@
 package com.maxdemaio;
 
+import com.maxdemaio.decoratorPattern.*;
 import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
@@ -51,5 +52,16 @@ public class Main {
         HeatIndexConditionsDisplay heatIndexConditionsDisplay = new HeatIndexConditionsDisplay(weatherData);
         weatherData.setMeasurements(68, 20, 33.2f);
         System.out.println();
+
+        // ** Chapter 3 **//
+        Beverage beverage = new Espresso();
+        System.out.println(beverage.getDescription());
+
+        Beverage beverage2 = new HouseBlend();
+        beverage2 = new Mocha(beverage2); // Wrap the house blend w/ mocha
+        beverage2 = new Mocha(beverage2); // Wrap the house blend w/ 2nd mocha
+        beverage2 = new Whip(beverage2); // Add whip cream
+        // House blend, double mocha w/ whipped cream!
+        System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
     }
 }
