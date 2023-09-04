@@ -5,3 +5,4 @@ My implementations of all the design patterns in the book, Head First Design Pat
 - [strategy pattern](./src/main/java/com/maxdemaio/strategyPattern/) (duck example)
 - [observer pattern](./src/main/java/com/maxdemaio/observerPattern/) (weather station example)
 - [decorator pattern](./src/main/java/com/maxdemaio/decoratorPattern/) (starbuzz example)
+- [factory pattern](./src/main/java/com/maxdemaio/factoryPattern/) (pizza example)

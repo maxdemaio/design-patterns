@@ -1,6 +1,10 @@
 package com.maxdemaio;
 
 import com.maxdemaio.decoratorPattern.*;
+import com.maxdemaio.factoryPattern.creators.ChicagoPizzaStore;
+import com.maxdemaio.factoryPattern.creators.NYPizzaStore;
+import com.maxdemaio.factoryPattern.products.Pizza;
+import com.maxdemaio.factoryPattern.creators.PizzaStore;
 import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
@@ -63,5 +67,17 @@ public class Main {
         beverage2 = new Whip(beverage2); // Add whip cream
         // House blend, double mocha w/ whipped cream!
         System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
+        System.out.println("---------------------------");
+        System.out.println();
+
+        // ** Chapter 4 **//
+        PizzaStore nyStore = new NYPizzaStore();
+        PizzaStore chicagoStore = new ChicagoPizzaStore();
+        Pizza pizza = nyStore.orderPizza("cheese");
+        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+        pizza = chicagoStore.orderPizza("cheese");
+        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+        System.out.println("---------------------------");
+        System.out.println();
     }
 }
