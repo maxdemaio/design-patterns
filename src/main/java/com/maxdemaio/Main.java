@@ -8,6 +8,7 @@ import com.maxdemaio.factoryPattern.creators.PizzaStore;
 import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
+import com.maxdemaio.singletonPattern.Singleton4;
 import com.maxdemaio.strategyPattern.ducks.DecoyDuck;
 import com.maxdemaio.strategyPattern.ducks.MallardDuck;
 import com.maxdemaio.strategyPattern.ducks.ModelDuck;
@@ -79,5 +80,10 @@ public class Main {
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
         System.out.println("---------------------------");
         System.out.println();
+
+        // ** Chapter 5 ** //
+        Singleton4 mySingleton = Singleton4.getInstance();
+
+        
     }
 }
