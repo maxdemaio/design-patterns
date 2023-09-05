@@ -6,3 +6,5 @@ My implementations of all the design patterns in the book, Head First Design Pat
 - [observer pattern](./src/main/java/com/maxdemaio/observerPattern/) (weather station example)
 - [decorator pattern](./src/main/java/com/maxdemaio/decoratorPattern/) (starbuzz example)
 - [factory pattern](./src/main/java/com/maxdemaio/factoryPattern/) (pizza example)
+- [singleton pattern](./src/main/java/com/maxdemaio/singletonPattern/)
+- [command pattern](./src/main/java/com/maxdemaio/commandPattern/) (remote control example)
