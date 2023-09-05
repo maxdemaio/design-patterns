@@ -121,5 +121,19 @@ public class Main {
         newerRemoteControl.offButtonWasPushed(0);
         newerRemoteControl.onButtonWasPushed(1);
         newerRemoteControl.offButtonWasPushed(1);
+
+        // Setup macro
+        Command[] allOn = { livingRoomLightOn, kitchenLightOn};
+        Command[] allOff = { livingRoomLightOff, livingRoomLightOff};
+
+        MacroCommand partyOnMacro = new MacroCommand(allOn);
+        MacroCommand partyOffMacro = new MacroCommand(allOff);
+        newerRemoteControl.setCommand(2, partyOnMacro, partyOffMacro);
+        System.out.println(newerRemoteControl);
+        System.out.println("--- Pushing Macro On---");
+        newerRemoteControl.onButtonWasPushed(0);
+        System.out.println("--- Pushing Macro Off---");
+        newerRemoteControl.offButtonWasPushed(0);
+
     }
 }

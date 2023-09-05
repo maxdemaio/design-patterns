@@ -7,12 +7,12 @@ public class RemoteControl {
     Command[] offCommands;
 
     public RemoteControl() {
-        onCommands = new Command[2];
-        offCommands = new Command[2];
+        onCommands = new Command[3];
+        offCommands = new Command[3];
 
         // start them off as default no commands
         Command noCommand = new NoCommand();
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             onCommands[i] = noCommand;
             offCommands[i] = noCommand;
         }
