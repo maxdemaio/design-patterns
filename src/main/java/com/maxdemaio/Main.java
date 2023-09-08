@@ -1,9 +1,9 @@
 package com.maxdemaio;
 
-import com.maxdemaio.abstractFacadePattern.BirdAdapter;
-import com.maxdemaio.abstractFacadePattern.PlasticToyDuck;
-import com.maxdemaio.abstractFacadePattern.Sparrow;
-import com.maxdemaio.abstractFacadePattern.ToyDuck;
+import com.maxdemaio.adapterFacadePatterns.BirdAdapter;
+import com.maxdemaio.adapterFacadePatterns.PlasticToyDuck;
+import com.maxdemaio.adapterFacadePatterns.Sparrow;
+import com.maxdemaio.adapterFacadePatterns.ToyDuck;
 import com.maxdemaio.commandPattern.*;
 import com.maxdemaio.decoratorPattern.*;
 import com.maxdemaio.factoryPattern.creators.ChicagoPizzaStore;

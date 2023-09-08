@@ -1,4 +1,4 @@
-package com.maxdemaio.abstractFacadePattern;
+package com.maxdemaio.adapterFacadePatterns;
 
 public interface ToyDuck {
     // target interface

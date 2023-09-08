@@ -1,4 +1,4 @@
-package com.maxdemaio.abstractFacadePattern;
+package com.maxdemaio.adapterFacadePatterns;
 
 public class Sparrow implements Bird {
     // a concrete implementation of bird

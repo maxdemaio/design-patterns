@@ -8,3 +8,4 @@ My implementations of all the design patterns in the book, Head First Design Pat
 - [factory pattern](./src/main/java/com/maxdemaio/factoryPattern/) (pizza example)
 - [singleton pattern](./src/main/java/com/maxdemaio/singletonPattern/)
 - [command pattern](./src/main/java/com/maxdemaio/commandPattern/) (remote control example)
+- [adapter and facade patterns](./src/main/java/com/maxdemaio/adapterFacadePatterns/) (bird example, facade explained in Main.java)

@@ -1,4 +1,4 @@
-package com.maxdemaio.abstractFacadePattern;
+package com.maxdemaio.adapterFacadePatterns;
 
 
 public class PlasticToyDuck implements ToyDuck {

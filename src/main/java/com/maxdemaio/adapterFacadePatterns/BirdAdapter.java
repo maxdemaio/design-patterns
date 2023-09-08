@@ -1,4 +1,4 @@
-package com.maxdemaio.abstractFacadePattern;
+package com.maxdemaio.adapterFacadePatterns;
 
 public class BirdAdapter implements ToyDuck {
     // You need to implement the interface your
