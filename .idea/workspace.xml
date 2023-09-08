@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3109c7-7def-44cd-b102-3593b0e91bbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/commandPattern/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/abstractFacadePattern/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/abstractFacadePattern/BirdAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/abstractFacadePattern/PlasticToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/abstractFacadePattern/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/abstractFacadePattern/ToyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/strategyPattern/ducks/IDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxdemaio/commandPattern/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maxdemaio/commandPattern/RemoteControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +107,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/maxdemaio/Main.java</url>
-          <line>53</line>
+          <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

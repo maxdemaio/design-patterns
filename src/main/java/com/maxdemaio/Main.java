@@ -1,5 +1,9 @@
 package com.maxdemaio;
 
+import com.maxdemaio.abstractFacadePattern.BirdAdapter;
+import com.maxdemaio.abstractFacadePattern.PlasticToyDuck;
+import com.maxdemaio.abstractFacadePattern.Sparrow;
+import com.maxdemaio.abstractFacadePattern.ToyDuck;
 import com.maxdemaio.commandPattern.*;
 import com.maxdemaio.decoratorPattern.*;
 import com.maxdemaio.factoryPattern.creators.ChicagoPizzaStore;
@@ -10,10 +14,7 @@ import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
 import com.maxdemaio.singletonPattern.Singleton4;
-import com.maxdemaio.strategyPattern.ducks.DecoyDuck;
-import com.maxdemaio.strategyPattern.ducks.MallardDuck;
-import com.maxdemaio.strategyPattern.ducks.ModelDuck;
-import com.maxdemaio.strategyPattern.ducks.Duck;
+import com.maxdemaio.strategyPattern.ducks.*;
 import com.maxdemaio.strategyPattern.encapsulatedBehavior.FlyWithWings;
 
 public class Main {
@@ -123,8 +124,8 @@ public class Main {
         newerRemoteControl.offButtonWasPushed(1);
 
         // Setup macro
-        Command[] allOn = { livingRoomLightOn, kitchenLightOn};
-        Command[] allOff = { livingRoomLightOff, livingRoomLightOff};
+        Command[] allOn = {livingRoomLightOn, kitchenLightOn};
+        Command[] allOff = {livingRoomLightOff, livingRoomLightOff};
 
         MacroCommand partyOnMacro = new MacroCommand(allOn);
         MacroCommand partyOffMacro = new MacroCommand(allOff);
@@ -134,6 +135,43 @@ public class Main {
         newerRemoteControl.onButtonWasPushed(0);
         System.out.println("--- Pushing Macro Off---");
         newerRemoteControl.offButtonWasPushed(0);
+        System.out.println("---------------------------");
+        System.out.println();
+
+
+        // ** Chapter 7 ** //
+        Sparrow sparrow = new Sparrow();
+        ToyDuck toyDuck = new PlasticToyDuck();
+
+        // Wrap a bird in a birdAdapter so that it
+        // behaves like toy duck
+        ToyDuck birdAdapter = new BirdAdapter(sparrow);
+
+        System.out.println("Sparrow...");
+        sparrow.fly();
+        sparrow.makeSound();
+
+        System.out.println("ToyDuck...");
+        toyDuck.squeak();
+
+        // toy duck behaving like a bird
+        System.out.println("BirdAdapter...");
+        birdAdapter.squeak();
+
+        // A facade not only simplifies an interface, it decouples a client
+        // from a subsystem of components.
+        // Facades and adapters may wrap multiple
+        // classes, but a facade’s intent is to simplify, while
+        // an adapter’s is to convert the interface to something different.
+        System.out.println("---------------------------");
+        System.out.println();
+
 
     }
+
 }
+
+
+
+
+
