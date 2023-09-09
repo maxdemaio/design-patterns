@@ -16,6 +16,9 @@ import com.maxdemaio.observerPattern.WeatherData;
 import com.maxdemaio.singletonPattern.Singleton4;
 import com.maxdemaio.strategyPattern.ducks.*;
 import com.maxdemaio.strategyPattern.encapsulatedBehavior.FlyWithWings;
+import com.maxdemaio.templatePattern.CaffeineBeverage;
+import com.maxdemaio.templatePattern.Coffee;
+import com.maxdemaio.templatePattern.Tea;
 
 public class Main {
     public static void main(String[] args) {
@@ -166,7 +169,17 @@ public class Main {
         System.out.println("---------------------------");
         System.out.println();
 
-
+        // ** Chapter 8 **//
+        /**
+         * The Template Method defines the steps of an algorithm
+         * and allows subclasses to provide the implementation for one or more steps.
+         */
+        CaffeineBeverage coffee = new Coffee();
+        CaffeineBeverage tea = new Tea();
+        coffee.prepareRecipe();
+        tea.prepareRecipe();
+        System.out.println("---------------------------");
+        System.out.println();
     }
 
 }
