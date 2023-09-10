@@ -1,8 +1,9 @@
 package com.maxdemaio.iteratorCompositePatterns;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
     ArrayList menuItems;
 
     public PancakeHouseMenu() {
@@ -29,7 +30,15 @@ public class PancakeHouseMenu {
         menuItems.add(menuItem);
     }
 
-    public ArrayList getMenuItems() {
-        return menuItems;
+    /**
+     * We’re not going to need the getMenuItems() method anymore and in fact,
+     * we don’t want it because it exposes our internal implementation!
+     */
+//    public ArrayList getMenuItems() {
+//        return menuItems;
+//    }
+
+    public Iterator createIterator() {
+        return menuItems.iterator();
     }
 }

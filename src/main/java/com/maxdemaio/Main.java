@@ -10,6 +10,9 @@ import com.maxdemaio.factoryPattern.creators.ChicagoPizzaStore;
 import com.maxdemaio.factoryPattern.creators.NYPizzaStore;
 import com.maxdemaio.factoryPattern.products.Pizza;
 import com.maxdemaio.factoryPattern.creators.PizzaStore;
+import com.maxdemaio.iteratorCompositePatterns.DinerMenu;
+import com.maxdemaio.iteratorCompositePatterns.PancakeHouseMenu;
+import com.maxdemaio.iteratorCompositePatterns.Waitress;
 import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
@@ -178,6 +181,14 @@ public class Main {
         CaffeineBeverage tea = new Tea();
         coffee.prepareRecipe();
         tea.prepareRecipe();
+        System.out.println("---------------------------");
+        System.out.println();
+
+        // ** Chapter 9 **//
+        PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
+        DinerMenu dinerMenu = new DinerMenu();
+        Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+        waitress.printMenu();
         System.out.println("---------------------------");
         System.out.println();
     }

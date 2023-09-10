@@ -1,6 +1,8 @@
 package com.maxdemaio.iteratorCompositePatterns;
 
-public class DinerMenu {
+import java.util.Iterator;
+
+public class DinerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
@@ -29,8 +31,18 @@ public class DinerMenu {
         }
     }
 
-    public MenuItem[] getMenuItems() {
-        return menuItems;
+    /**
+     * We’re not going to need the getMenuItems() method anymore and in fact,
+     * we don’t want it because it exposes our internal implementation!
+     */
+//    public MenuItem[] getMenuItems() {
+//        return menuItems;
+//    }
+
+    // Here’s the createIterator() method. It creates a DinerMenuIterator
+    // from the menuItems array and returns it to the client.
+    public Iterator createIterator() {
+        return new DinerMenuIterator(menuItems);
     }
     // other menu methods here
 
