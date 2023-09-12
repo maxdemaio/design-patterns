@@ -1,4 +1,4 @@
-package com.maxdemaio.iteratorCompositePatterns;
+package com.maxdemaio.iteratorCompositePatterns.pureIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package com.maxdemaio.iteratorCompositePatterns;
+package com.maxdemaio.iteratorCompositePatterns.pureIterator;
 
 public class MenuItem {
     String name;
