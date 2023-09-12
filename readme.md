@@ -10,4 +10,4 @@ My implementations of all the design patterns in the book, Head First Design Pat
 - [command pattern](./src/main/java/com/maxdemaio/commandPattern/) (remote control example)
 - [adapter and facade patterns](./src/main/java/com/maxdemaio/adapterFacadePatterns/) (bird example, facade explained in Main.java)
 - [template pattern](./src/main/java/com/maxdemaio/templatePattern/) (coffee/tea example)
-- [iterator and composite patterns](./src/main/java/com/maxdemaio/iteratorCompositePatterns/)) (diner/breakfast merger example and X)
+- [iterator and composite patterns](./src/main/java/com/maxdemaio/iteratorCompositePatterns/)) (diner/breakfast merger example and nested diner menus/items tree)
