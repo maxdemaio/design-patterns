@@ -12,3 +12,4 @@ My implementations of all the design patterns in the book, Head First Design Pat
 - [template pattern](./src/main/java/com/maxdemaio/templatePattern/) (coffee/tea example)
 - [iterator and composite patterns](./src/main/java/com/maxdemaio/iteratorCompositePatterns/) (diner/breakfast merger example and nested diner menus/items tree)
 - [state pattern](./src/main/java/com/maxdemaio/statePattern/) (gumball machine example)
+- [proxy pattern](./src/main/java/com/maxdemaio/proxyPattern/) (image proxy example)

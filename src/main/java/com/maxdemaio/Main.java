@@ -16,6 +16,7 @@ import com.maxdemaio.iteratorCompositePatterns.pureIterator.Waitress;
 import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
+import com.maxdemaio.proxyPattern.ImageProxyTestDrive;
 import com.maxdemaio.singletonPattern.Singleton4;
 import com.maxdemaio.statePattern.GumballMachine;
 import com.maxdemaio.strategyPattern.ducks.*;
@@ -25,7 +26,7 @@ import com.maxdemaio.templatePattern.Coffee;
 import com.maxdemaio.templatePattern.Tea;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println("Hello design patterns!");
 
         // ** Chapter 1 Strategy ** //
@@ -215,6 +216,10 @@ public class Main {
         System.out.println(gumballMachine);
         System.out.println("---------------------------");
         System.out.println();
+
+        // ** Chapter 10 ** //
+        ImageProxyTestDrive testDrive = new ImageProxyTestDrive();
+
     }
 
 }
