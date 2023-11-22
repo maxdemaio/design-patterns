@@ -17,6 +17,7 @@ import com.maxdemaio.observerPattern.CurrentConditionsDisplay;
 import com.maxdemaio.observerPattern.HeatIndexConditionsDisplay;
 import com.maxdemaio.observerPattern.WeatherData;
 import com.maxdemaio.singletonPattern.Singleton4;
+import com.maxdemaio.statePattern.GumballMachine;
 import com.maxdemaio.strategyPattern.ducks.*;
 import com.maxdemaio.strategyPattern.encapsulatedBehavior.FlyWithWings;
 import com.maxdemaio.templatePattern.CaffeineBeverage;
@@ -189,6 +190,29 @@ public class Main {
         DinerMenu dinerMenu = new DinerMenu();
         Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
         waitress.printMenu();
+        System.out.println("---------------------------");
+        System.out.println();
+
+        // ** Chapter 10 ** //
+        GumballMachine gumballMachine = new GumballMachine(2);
+
+        System.out.println(gumballMachine);
+
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+
+        System.out.println(gumballMachine);
+
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+
+        gumballMachine.refill(5);
+        gumballMachine.insertQuarter();
+        gumballMachine.turnCrank();
+
+        System.out.println(gumballMachine);
         System.out.println("---------------------------");
         System.out.println();
     }
